@@ -27,3 +27,18 @@ for(let i = 0; i < countOfRandommNumbers; i++){
 let average = sum / countOfRandommNumbers;
 console.log("Sum : " +sum +", Average : "+average);
 
+//Unit Conversion
+//a. 1ft = 12 in then 42 in = ? ft
+
+let inputInches=42;
+let inchToFeet=inputInches/12;
+console.log("42 in = "+inchToFeet+" ft");
+
+//b. Rectangular Plot of 60 feet x 40 feet in meters
+let AreaInFeet=60*40; // 1 square feet = 0.092903 meter square
+let AreaInMeter=AreaInFeet/0.092903;
+console.log("Plot area in meter : "+AreaInMeter);
+
+//c. Calculate area of 25 such plots in acres
+let AreaInAcre=AreaInFeet* 25 * 0.092903;
+console.log("25 plots area in meter : "+AreaInAcre);
